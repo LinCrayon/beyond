@@ -10,7 +10,7 @@ Auth:
 Oss:
   Endpoint: oss-cn-hangzhou.aliyuncs.com
   AccessKeyId: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  AccessKeySecret: 123456
+  AccessKeySecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   BucketName: beyond-article01
 ArticleRPC:
   Etcd:
