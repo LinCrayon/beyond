@@ -9,8 +9,8 @@ Auth:
   RefreshAfter: 604800
 Oss:
   Endpoint: oss-cn-hangzhou.aliyuncs.com
-  AccessKeyId: LTAI5tDZY6ky2rj5JBqxwSXn
-  AccessKeySecret: k7wxSPuaolgXGD8vPKpCK79Y84SY5i
+  AccessKeyId: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  AccessKeySecret: xxxxxxxxxxxxxxxxxxxxxxxxx
   BucketName: beyond-article01
 ArticleRPC:
   Etcd:
