@@ -1,0 +1,42 @@
+Name: article-api
+Host: 0.0.0.0
+Port: 8088
+Auth:
+  AccessSecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  AccessExpire: 604800
+  RefreshSecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  RefreshExpire: 2592000
+  RefreshAfter: 604800
+Oss:
+  Endpoint: oss-cn-hangzhou.aliyuncs.com
+  AccessKeyId: LTAI5tDZY6ky2rj5JBqxwSXn
+  AccessKeySecret: k7wxSPuaolgXGD8vPKpCK79Y84SY5i
+  BucketName: beyond-article01
+ArticleRPC:
+  Etcd:
+    Hosts:
+      - 127.0.0.1:2379
+    Key: article.rpc
+  NonBlock: true
+UserRPC:
+  Etcd:
+    Hosts:
+      - 127.0.0.1:2379
+    Key: user.rpc
+  NonBlock: true
+
+Consul:
+  Host: 127.0.0.1:8500
+  Key: article-api
+  Meta: # Meta 最终被普罗米修斯转换成label
+    env: test
+    service_group: beyond
+    service_name: article-api
+
+Prometheus:
+  Host: 0.0.0.0
+  Port: 9101
+  Path: /metrics
+
+Telemetry:
+  Endpoint: http://127.0.0.1:14268/api/traces
