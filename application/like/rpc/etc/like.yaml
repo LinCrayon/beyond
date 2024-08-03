@@ -8,5 +8,5 @@ Etcd:
 
 KqPusherCong:
   Brokers:
-    - 121.43.177.234:9092
+    - 127.0.0.1:9092
   Topic: topic-beyond-like

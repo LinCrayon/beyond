@@ -8,10 +8,10 @@ Auth:
   RefreshExpire: 2592000
   RefreshAfter: 604800
 Oss:
-  Endpoint: oss-cn-hangzhou.aliyuncs.com
-#  AccessKeyId: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-#  AccessKeySecret: 
-  BucketName: beyond-article01
+  Endpoint: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  AccessKeyId: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  AccessKeySecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  BucketName: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ArticleRPC:
   Etcd:
     Hosts:
